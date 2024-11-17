@@ -48,7 +48,7 @@ itemCount: snapshot.data!.length,
 itemBuilder: (context, index) {
 final item = snapshot.data![index];
 return ListTile(
-title: Text(item['name']), // Adjust based on your data structure
+title: Text(item['companyName']), // Adjust based on your data structure
 );
 },
 );
